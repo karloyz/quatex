@@ -2,7 +2,7 @@ from pathlib import Path
 
 
 def get_data_dir():
-    base_dir = Path.cwd().joinpath(".quatex")
+    base_dir = Path.home().joinpath(".quatex")
     if not base_dir.exists():
         base_dir.mkdir(parents=True, exist_ok=True)
     return base_dir
