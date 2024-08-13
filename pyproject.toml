@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "quatex"
-version = "1.0.0"
+version = "1.0.1"
 description = ""
 authors = ["Karlo <karloyz@proton.me>"]
 readme = "README.md"
